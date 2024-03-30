@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Full Stack Web Development Course",
+    "price": 100000,
+    "Duration": "10 Months",
+    "description": "Be Project ready in just 10 months",
+    "category": "Education",
+    "rating": {
+      "rate": 4,
+      "review": 10000
+    }
+  },
+  {
+    "id": 2,
+    "title": "Data Analytic",
+    "price": 90000,
+    "Duration": "9 Months",
+    "description": "Master the data engineering course with world class mentors",
+    "category": "Education",
+    "rating": {
+      "rate": 4.1,
+      "review": 39000
+    }
+  },
+  {
+    "id": 3,
+    "title": "Software Tester",
+    "price": 50000,
+    "Duration": "6 Months",
+    "description": "Gain Knowledge of software testing and manual test QA testing",
+    "category": "Education",
+    "rating": {
+      "rate": 3.9,
+      "review": 9000
+    }
+  }
+]
