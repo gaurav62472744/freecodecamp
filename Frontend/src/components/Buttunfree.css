@@ -1,8 +1,8 @@
 #btn {
   height: 54.5625px;
-  width: 500px;
+  width: 600px;
   border: 3px solid #f1a02a;
-  margin: 0 145px 0 145px;
+  margin: 0 150px 0 150px;
   padding: 5px 5px 5px 5px;
   max-height: 100%;
   max-width: 500px;
@@ -17,8 +17,8 @@
   cursor: pointer;
 }
 #btn > button {
-  height: 38.5625px;
-  width: 244.297px;
+  height: 55px;
+  width: 300px;
   min-height: auto;
   min-width: auto;
   color: #0a0a23;
