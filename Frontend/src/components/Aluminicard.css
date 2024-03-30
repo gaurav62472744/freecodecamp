@@ -1,0 +1,47 @@
+#card{
+    border: 0px solid red;
+    height: 320px;
+    width:1145px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#photo{
+    width: 322px;
+    height: 320px;
+    border: 0px solid red;
+}
+#info{
+    width: 820px;
+    height: 320px;
+    border: 0px solid rgb(14, 10, 10);
+   color: #1b1b32;
+   background-color: #ffff;
+
+}
+#adress{
+    width: 50%;
+    height: 40%;
+    border: 0px solid red;
+    margin: auto;
+    margin-top: 20px;
+}
+#history{
+    width: 90%;
+    height: 90px;
+    border: 0px solid red;
+    margin: auto;
+    text-align: justify;
+    font-size: 19.8px;
+    margin-top: 20px;
+}
+.add{
+    font-size: 24px;
+    font-family: Lato, sans-serif;
+    line-height: 25px;
+    letter-spacing: normal;
+    text-align: center;
+    font-weight: 100; 
+}

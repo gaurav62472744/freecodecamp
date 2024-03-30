@@ -1,0 +1,53 @@
+#Navbar {
+  text-align: start;
+  color: #ffff;
+  font-size: 18px;
+  background-color: #1b1b32;
+  letter-spacing: normal;
+  line-height: 25.7143px;
+  font-family: lato, sans-serief;
+  height: 35px;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#searchbox {
+  width: 500px;
+  height: 32px;
+  background-color: #3b3b4f;
+}
+#searchicon {
+  height: 27px;
+  display: flex;
+  align-items: center;
+  width: 40px;
+  padding: 5px;
+  border: 0px solid rgb(224, 217, 217);
+}
+#inputbox {
+  height: 26px;
+  width: 429px;
+  border: none;
+  color: #ffff;
+  background-color: #3b3b4f;
+}
+#inputbox[type="text"]::placeholder {
+  color: rgb(221, 217, 217);
+  font-size: 15.5px;
+  width: 429px;
+  /* Placeholder text color */
+}
+#logo {
+  width: 300px;
+  height: 27px;
+  border: 100px solid rgb(247, 244, 244);
+}
+#menubar {
+  width: 400px;
+  height: 30px;
+  border: 0px solid white;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}

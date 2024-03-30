@@ -1,0 +1,32 @@
+#btn {
+  height: 54.5625px;
+  width: 500px;
+  border: 3px solid #f1a02a;
+  margin: 0 145px 0 145px;
+  padding: 5px 5px 5px 5px;
+  max-height: 100%;
+  max-width: 500px;
+  min-width: 28px;
+  font-family: Lato, sans-serif;
+  font-size: 27px;
+  line-height: 38.5714px;
+  text-decoration: none solid rgb(10, 10, 35);
+  word-spacing: 0px;
+  background-color: #fecc4c;
+  background-position: 0% 0%;
+  cursor: pointer;
+}
+#btn > button {
+  height: 38.5625px;
+  width: 244.297px;
+  min-height: auto;
+  min-width: auto;
+  color: #0a0a23;
+  font-family: Lato, sans-serif;
+  font-size: 27px;
+  line-height: 38.5714px;
+  text-decoration: none solid rgb(10, 10, 35);
+  word-spacing: 0px;
+  background-color: #fecc4c;
+  border: none;
+}
