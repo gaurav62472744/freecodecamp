@@ -5,6 +5,9 @@ const bodyParser = require('body-parser');
 const userRouter = require("./routes/userRoutes.js");
 const authorization = require("./middleware/authorization.js");
 const courseRoute = require("./routes/courseRoute.js");
+const dotenv = require("dotenv");
+
+dotenv.config();
 
 
 const app = express();
