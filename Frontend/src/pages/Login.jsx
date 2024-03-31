@@ -83,7 +83,7 @@ const LoginForm = () => {
     }, 10);
 
     // Store token in session storage
-    sessionStorage.setItem('token', responseData.token);
+    localStorage.setItem('token', responseData.token);
   };
 
   // Function to handle signup redirection

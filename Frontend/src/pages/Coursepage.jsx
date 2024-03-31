@@ -9,7 +9,7 @@ const Coursepage = () => {
     // Fetch courses data
     const fetchCourses = async () => {
       try {
-        const token = sessionStorage.getItem('token');
+        const token = localStorage.getItem('token');
         if (!token) {
           throw new Error('Authorization token not found');
         }

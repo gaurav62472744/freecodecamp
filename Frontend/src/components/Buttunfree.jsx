@@ -3,7 +3,7 @@ import "./Buttunfree.css";
 
 const Buttunfree = () => {
   const handleButtonClick = () => {
-    const token = sessionStorage.getItem("token");
+    const token = localStorage.getItem("token");
     if (token) {
       // Token is present, redirect to course page
       window.location.href = "/coursepage";

@@ -12,13 +12,13 @@ const Navbar = () => {
   const navigate = useNavigate(); // Get the navigate function from useNavigate hook
 
   useEffect(() => {
-    const token = sessionStorage.getItem('token');
+    const token = localStorage.getItem('token');
     setIsLoggedIn(token !== null);
   }, []);
 
   const handleSignOut = () => {
     // Clear token from session storage
-    sessionStorage.removeItem('token');
+    localStorage.removeItem('token');
     // Redirect to home page
     navigate('/');
     window.location.reload()

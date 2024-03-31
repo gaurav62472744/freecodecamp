@@ -13,7 +13,7 @@
   },
   {
     "id": 2,
-    "title": "Data Analytic",
+    "title": "Data Analytics",
     "price": 90000,
     "Duration": "9 Months",
     "description": "Master the data engineering course with world class mentors",
@@ -33,6 +33,42 @@
     "rating": {
       "rate": 3.9,
       "review": 9000
+    }
+  },
+  {
+    "id": 4,
+    "title": "Artificial Intelligence",
+    "price": 120000,
+    "Duration": "12 Months",
+    "description": "Explore the depths of AI with cutting-edge technologies",
+    "category": "Education",
+    "rating": {
+      "rate": 4.5,
+      "review": 25000
+    }
+  },
+  {
+    "id": 5,
+    "title": "Blockchain Fundamentals",
+    "price": 80000,
+    "Duration": "8 Months",
+    "description": "Learn the fundamentals of blockchain technology and its applications",
+    "category": "Education",
+    "rating": {
+      "rate": 4.2,
+      "review": 18000
+    }
+  },
+  {
+    "id": 6,
+    "title": "Digital Marketing Mastery",
+    "price": 75000,
+    "Duration": "6 Months",
+    "description": "Master the art of digital marketing with real-world projects",
+    "category": "Education",
+    "rating": {
+      "rate": 4.3,
+      "review": 32000
     }
   }
 ]
