@@ -1,31 +1,37 @@
 .course-container {
-    padding: 20px;
-  }
-  
-  .course-card-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
+  padding: 20px;
+}
+
+.course-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2px; /* Add gap between cards */
+}
+
+.course-card {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: calc(50% - 20px); /* Calculate width for 2 cards per row with gap */
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
   .course-card {
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 20px;
-    margin-bottom: 20px;
-    width: calc(33.33% - 20px);
+    width: calc(33.33% - 20px); /* Calculate width for 3 cards per row with gap */
   }
-  
-  @media (max-width: 768px) {
-    .course-card {
-      width: calc(50% - 20px);
-    }
+}
+
+@media (min-width: 768px) {
+  .course-card {
+    width: calc(50% - 20px); /* Calculate width for 2 cards per row with gap */
   }
-  
-  @media (max-width: 576px) {
-    .course-card {
-      width: 100%;
-    }
+}
+
+@media (min-width: 992px) {
+  .course-card {
+    width: calc(33.33% - 120px); /* Calculate width for 3 cards per row with gap */
   }
-  
+}

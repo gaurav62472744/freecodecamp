@@ -70,5 +70,41 @@
       "rate": 4.3,
       "review": 32000
     }
+  },
+  {
+    "id": 7,
+    "title": "Python Programming",
+    "price": 85000,
+    "Duration": "7 Months",
+    "description": "Learn Python programming from basics to advanced concepts",
+    "category": "Education",
+    "rating": {
+      "rate": 4.4,
+      "review": 28000
+    }
+  },
+  {
+    "id": 8,
+    "title": "UX/UI Design",
+    "price": 95000,
+    "Duration": "8 Months",
+    "description": "Master the principles of UX/UI design with hands-on projects",
+    "category": "Education",
+    "rating": {
+      "rate": 4.6,
+      "review": 35000
+    }
+  },
+  {
+    "id": 9,
+    "title": "Cloud Computing",
+    "price": 110000,
+    "Duration": "10 Months",
+    "description": "Explore cloud computing technologies and services",
+    "category": "Education",
+    "rating": {
+      "rate": 4.7,
+      "review": 42000
+    }
   }
 ]
